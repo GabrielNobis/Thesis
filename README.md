@@ -3,4 +3,8 @@ A numpy implementation to generate exact simulations of final, minimal and maxim
 
 https://link.springer.com/article/10.1007%2Fs10287-007-0065-9.
 
-Let $'W=(W_{t})t_{\in[0,T]}'$
+Let 
+
+'''math
+W=(W_{t})t_{\in[0,T]}
+'''

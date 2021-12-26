@@ -8,3 +8,4 @@ Let
 '''math
 W=(W_{t})t_{\in[0,T]}
 '''
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">

@@ -2,6 +2,10 @@
 
 In [code](./code) you find the PyTorch implementation of the numerical method proposed in my master's thesis to approximate the optimal trading strategy and the optimal risky fraction in a Black-Scholes model with transaction costs. In [thesis.pdf](./thesis.pdf) you find my master's thesis. 
 
-To run the code
+The results along with the trained neural networks of the experiments of Chapter 4 are provided in [/code/results](./code/results).
+
+To run the code and to train your own neural network clone this repository and execute the jupyter notebook [code/showcase.ipynb](./code/showcase.ipynb).
+
+In [processes]
 
 

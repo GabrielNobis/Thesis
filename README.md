@@ -7,7 +7,7 @@ The results along with the trained neural networks of the experiments of Chapter
 To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase](./code/showcase.ipynb). In the images below you see first five realizations of the approximate optimal trading strategy and the approximate optimal risky fraction
 
 <p align="center">
-  <img width="600" height="450" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_5.png">
+  <img width="600" height="450" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_5.jpg">
 </p>
 
 Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 

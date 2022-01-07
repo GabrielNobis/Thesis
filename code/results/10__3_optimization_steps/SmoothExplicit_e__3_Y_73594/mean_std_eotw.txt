@@ -1,0 +1,2 @@
+mean of prediction of eotw: 3.9253456592559814
+std of prediction of eotw: 7.761380402371287e-05

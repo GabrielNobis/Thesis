@@ -30,6 +30,6 @@ ItoProcess(Minibatch):
     def vol(self,t,S):
         #your code to specify the volatility function 
         return 
-'''
+```
 
-and run [ItoProcesses.py](./code/processes/ItoProcesses.py)
+and run [showcase_ItoProcesses.ipynb](./code/processes/showcase_ItoProcesses.ipynb).

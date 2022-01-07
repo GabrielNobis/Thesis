@@ -1,12 +1,12 @@
 # A Deep Learning Approach to Optimal Investment With Transaction Costs
 
-In [code](./code) you find the PyTorch implementation of the numerical method proposed in my master's thesis [thesis.pdf](./thesis.pdf) to approximate the optimal trading strategy and the optimal risky fraction in a Black-Scholes model with transaction costs.
+In [code](./code) you find the PyTorch implementation of the numerical method proposed in my [master's thesis](./thesis.pdf) to approximate the optimal trading strategy and the optimal risky fraction in a Black-Scholes model with transaction costs.
 
-The results along with the trained neural networks of the experiments of Chapter 4 in [thesis.pdf](./thesis.pdf) are provided in [results](./code/results).
+The results along with the trained neural networks of the experiments of Chapter 4 are provided in [results](./code/results).
 
-To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase.ipynb](./code/showcase.ipynb).
+To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase](./code/showcase.ipynb).
 
-Moreover, you find in [ItoProcesses.py](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
+Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
 
 ```python
 ItoProcess(Minibatch):
@@ -32,4 +32,4 @@ ItoProcess(Minibatch):
         return 
 ```
 
-and run [showcase_ItoProcesses.ipynb](./code/processes/showcase_ItoProcesses.ipynb).
+and run [showcase_ItoProcesses](./code/processes/showcase_ItoProcesses.ipynb).

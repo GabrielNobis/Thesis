@@ -6,7 +6,7 @@ The results along with the trained neural networks of the experiments of Chapter
 
 To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase.ipynb](./code/showcase.ipynb).
 
-Moreover, you find in [code/processes/ItoProcesses.py](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
+Moreover, you find in [ItoProcesses.py](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
 
 ```python
 ItoProcess(Minibatch):
@@ -31,3 +31,5 @@ ItoProcess(Minibatch):
         #your code to specify the volatility function 
         return 
 '''
+
+and run [ItoProcesses.py](./code/processes/ItoProcesses.py)

@@ -9,7 +9,7 @@ To run the code and to train your own neural networks, clone this repository and
 Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
 
 ```python
-ItoProcess(Minibatch):
+YourProcess(Minibatch):
   def __init__(self, T=1, N=100, D=1,s0=0):
     super().__init__(T=T, N=N, D=D,s0=s0)
         

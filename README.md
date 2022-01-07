@@ -25,7 +25,7 @@ ItoProcess(Minibatch):
     
     def drift(self,t,S):
         #your code to specify the drift function 
-        return 2*S+1
+        return
     
     def vol(self,t,S):
         #your code to specify the volatility function 

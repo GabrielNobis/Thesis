@@ -1,6 +1,6 @@
 # A Deep Learning Approach to Optimal Investment With Transaction Costs
 
-In [code](./code) you find the PyTorch implementation of the numerical method proposed in my master's thesis to approximate the optimal trading strategy and the optimal risky fraction in a Black-Scholes model with transaction costs. In [thesis.pdf](./thesis.pdf) you find my master's thesis. 
+In [code](./code) you find the PyTorch implementation of the numerical method proposed in my master's thesis [thesis.pdf](./thesis.pdf) to approximate the optimal trading strategy and the optimal risky fraction in a Black-Scholes model with transaction costs.
 
 The results along with the trained neural networks of the experiments of Chapter 4 are provided in [/code/results](./code/results).
 

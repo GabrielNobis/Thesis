@@ -4,17 +4,16 @@ In [code](./code) you find the PyTorch implementation of the numerical method pr
 
 The results along with the trained neural networks of the experiments of Chapter 4 are provided in [results](./code/results).
 
-To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase](./code/showcase.ipynb). In the image below you see five realizations of the approximate optimal trading strategy and the approximate optimal risky fraction derived by the method _NonReluOracleTanh_:
+To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase](./code/showcase.ipynb). 
+
+In the two images below you see the approximate optimal trading strategy and the approximate optimal risky fraction derived by the method _NonReluOracleTanh_.
 
 <p align="center">
   <img width="900" height="300" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_5.jpg">
 </p>
 
-Followed by one realisation of all processes used to calculate the approximate optimal trading strategy and the approximate optimal risky fraction:
-
-
 <p align="center">
-  <img width="900" height="900" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/full_plots_1.jpg">
+  <img width="900" height="300" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_1000.jpg">
 </p>
 
 The red sell boundary and the green buy boundary are calculated with the code of [Belak and Sass](https://link.springer.com/article/10.1007/s00780-019-00404-4).

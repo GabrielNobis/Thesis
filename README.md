@@ -18,7 +18,9 @@ In the two images below you see the approximate optimal trading strategy and the
 
 The red sell boundary and the green buy boundary are calculated with the code of [Belak and Sass](https://link.springer.com/article/10.1007/s00780-019-00404-4).
 
-Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. To simulate a differnet Ito process, you may define 
+Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. See  [showcase_ItoProcesses](./code/processes/showcase_ItoProcesses.ipynb) for illustration.
+
+To simulate a differnet Ito process, you may define: 
 
 ```python
 YourProcess(Minibatch):
@@ -44,4 +46,3 @@ YourProcess(Minibatch):
         return 
 ```
 
-and run [showcase_ItoProcesses](./code/processes/showcase_ItoProcesses.ipynb).

@@ -16,7 +16,7 @@ In the two images below you see the approximate optimal trading strategy and the
   <img width="900" height="300" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_1000.jpg">
 </p>
 
-The red sell boundary and the green buy boundary are calculated with the code of [Belak and Sass](https://link.springer.com/article/10.1007/s00780-019-00404-4).
+The red sell boundary and the green buy boundary is calculated with the code of [Belak and Sass](https://link.springer.com/article/10.1007/s00780-019-00404-4).
 
 Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. See  [showcase_ItoProcesses](./code/processes/showcase_ItoProcesses.ipynb) for illustration.
 

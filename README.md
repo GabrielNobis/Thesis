@@ -20,7 +20,7 @@ The red sell boundary and the green buy boundary is calculated with the code of 
 
 Moreover, you find in [ItoProcesses](./code/processes/ItoProcesses.py) an implementation to simulate Brownian motion, geometric Brownian motion and the triplet of final, minimal and maximal value of scaled Brownian motion with drift. See  [showcase_ItoProcesses](./code/processes/showcase_ItoProcesses.ipynb) for illustration.
 
-To simulate a differnet Ito process: 
+To simulate a different Ito process: 
 
 ```python
 YourProcess(Minibatch):

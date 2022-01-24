@@ -6,7 +6,7 @@ The results along with the trained neural networks of the experiments of Chapter
 
 To run the code and to train your own neural networks, clone this repository and execute the jupyter notebook [showcase](./code/showcase.ipynb). 
 
-In the two images below you see the approximate optimal trading strategy and the approximate optimal risky fraction derived by the method _NonReluOracleTanh_.
+In the two plots below you see the approximate optimal trading strategy and the approximate optimal risky fraction derived by the method _NonReluOracleTanh_.
 
 <p align="center">
   <img width="900" height="300" src="./code/results/3Y_m/Non_relu_OracleTanh_e__350130/strategy_fraction_5.jpg">
